@@ -19,6 +19,10 @@ spec:
       containers:
         #- image: 192.168.174.130:32684/angular-webapp:<TAG>
         - image: 192.168.136.131:32684/angular-webapp:<TAG>
+          resources:
+            requests:
+              cpu: "50m"
+              memory: "250Mi"
           imagePullPolicy: Always
           name: myangapp
       imagePullSecrets:
