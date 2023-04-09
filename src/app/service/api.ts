@@ -2,7 +2,7 @@ import { Injectable } from "@angular/core";
 import { HttpClient } from '@angular/common/http';
 import { map } from 'rxjs/operators';
 
-const baseUrl = `http://192.168.174.130:32223`;
+const baseUrl = `http://192.168.136.131:32223`;
 const baseUrl1=`http://localhost:4200/home`;
 
 @Injectable({
